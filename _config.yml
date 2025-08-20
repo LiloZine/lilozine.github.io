@@ -1,0 +1,7 @@
+title: The Lilo Zine
+description: A living archive in motion.
+url: "https://lilozine.github.io"   # your live URL
+baseurl: ""                         # empty because it's a user site
+
+# optional: theme line (not required to *run*)
+# theme: not yet assigned a theme
