@@ -4,15 +4,108 @@
   <meta charset="utf-8">
   <title>Home | The Lilo Zine</title>
   <meta name="description" content="A living archive in motion.">
+    <!-- existing favicon -->
   <link rel="icon" href="/assets/img/favicon_SadgeDoge.png" type="image/png">
+  <!-- existing theme styles (if any) -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- ✨ your custom stylesheet should go AFTER the theme’s css so it overrides it -->
+  <link rel="stylesheet" href="/assets/css/style.css?v=1755868583">
 </head>
 <body>
   <header>
     <h1><a href="/">The Lilo Zine</a></h1>
   </header>
   <main>
-    <h1>Hello World!</h1>
-<p>This is my living archive.</p>
+    <!-- Hero -->
+<section style="margin: 2rem 0;">
+  <h1 style="margin-bottom: .25rem;">The Lilo Zine</h1>
+  <p style="margin-top: 0; opacity:.85;">A living archive of gaming, scholarship, code, and story.</p>
+
+  <p>
+    This site is a public work-in-progress—tinkered in GitHub, VS Code, and Jekyll. I am becoming deeply familiar with the likes of HTML, CSS and my Windows OS terminal. 
+    The site remains incomplete, but expect to find links to my social media profiles likely under the handle of <a href="https://linktr.ee/lilozine" target="_blank" rel="noopener">LiloZine</a>,
+    an ever-growing CV, videos I’ve filmed/edited, code experiments, and a constellation of stories.
+  </p>
+
+  <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin:1rem 0;">
+    <a href="https://linktr.ee/lilozine" target="_blank" rel="noopener" style="padding:.6rem .9rem; border:1px solid currentColor; text-decoration:none; border-radius:999px;">Links That Actually Work</a>
+    <a href="https://bsky.app/profile/lilozine.bsky.social" target="_blank" rel="noopener" style="padding:.6rem .9rem; border:1px solid currentColor; text-decoration:none; border-radius:999px;">Dev Logs</a>
+    <a href="mailto:altblkctrl@gmail.com" style="padding:.6rem .9rem; border:1px solid currentColor; text-decoration:none; border-radius:999px;">Collaborate</a>
+  </div>
+</section>
+
+<hr>
+
+<!-- Collaboration Invite -->
+<section style="margin: 2rem 0;">
+  <h2>Open to Collaborations</h2>
+  <p>Seeking kind co-conspirators and work opportunities across creative and technical lanes:</p>
+  <ul>
+    <li>Site dev • full-stack • software engineering</li>
+    <li>Twitch & video production • streaming</li>
+    <li>Research • librarianship • archives</li>
+    <li>Anyone who’s down to build something beautiful</li>
+  </ul>
+    <p style="font-size: 0.9em; opacity: 0.8;">
+      Site styled with the <a href="https://lospec.com/palette-list/1bit-monitor-glow" target="_blank">1bit Monitor Glow palette</a> 
+      by <strong>Polyducks</strong>.
+    </p>
+</section>
+
+<hr>
+
+<!-- Site Map / Coming Soon -->
+<section style="margin: 2rem 0;">
+  <h2>Sections</h2>
+    <p style="font-size: 0.9em; opacity: 0.8;">
+        These buttons do not work yet, but will soon. 
+    </p>
+  <!-- Simple responsive grid; replace # with real pages as you create them -->
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:.75rem;">
+    <a href="/about/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">About</a>
+    <a href="/cv/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">CV</a>
+    <a href="/projects/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Projects</a>
+    <a href="/scholarship/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Scholarship</a>
+    <a href="/gaming/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Gaming</a>
+    <a href="/sims/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Sims</a>
+    <a href="/devlogs/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Dev Logs</a>
+    <a href="/storytelling/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Storytelling</a>
+    <a href="/embodiment/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Embodiment</a>
+    <a href="/links/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">Links</a>
+    <a href="/404/" style="display:block; padding:1rem; border:1px solid currentColor; text-decoration:none; border-radius:.75rem;">404</a>
+  </div>
+</section>
+
+<hr>
+
+<!-- Latest / Dev Log Teaser -->
+<section style="margin: 2rem 0;">
+  <h2>Latest Developments</h2>
+      <p style="font-size: 0.9em; opacity: 0.8;">
+        <em>Dev Logs are updates on project developments, and the logs for this site will be shared locally soon! </em>
+    </p>
+
+  <p>Dev Log #1 — bootstrapping Jekyll, fixing local preview, pushing to GitHub Pages. <a href="/devlogs/">Read →</a></p>
+</section>
+
+<hr>
+
+<!-- Responsive video embed -->
+<section style="margin: 2rem 0;">
+  <h2>Code for Play</h2>
+  <p>Working on Doki Doki GHerbo. Duke Dennis, I see you.</p>
+  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:.75rem;">
+    <iframe
+      src="https://www.youtube.com/embed/1VJsf5MYoW4?si=_sJW3totUhNYttNz"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;"
+    ></iframe>
+  </div>
+</section>
   </main>
   <footer>
     <small>© 2025 The Lilo Zine</small>

@@ -4,7 +4,12 @@
   <meta charset="utf-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+    <!-- existing favicon -->
   <link rel="icon" href="{{ '/assets/img/favicon_SadgeDoge.png' | relative_url }}" type="image/png">
+  <!-- existing theme styles (if any) -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <!-- ✨ your custom stylesheet should go AFTER the theme’s css so it overrides it -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
   <header>

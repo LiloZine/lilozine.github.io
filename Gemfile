@@ -8,6 +8,8 @@ gem "jekyll"
 
 # Optional, quiet the Windows file-watcher warning (speeds reloads on Windows)
 gem "wdm", ">= 0.1.0", platforms: [:mingw, :x64_mingw, :mswin]
+gem "logger"
+gem "fiddle"
 
 # Optional (only if you choose a GitHub Pages *remote theme* later)
-# gem "jekyll-remote-theme"
+gem "jekyll-remote-theme", "~> 0.4.3"

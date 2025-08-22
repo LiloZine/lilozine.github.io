@@ -4,4 +4,9 @@ url: "https://lilozine.github.io"   # your live URL
 baseurl: ""                         # empty because it's a user site
 
 # optional: theme line (not required to *run*)
-# theme: not yet assigned a theme
+
+# plugins:
+
+
+# remote_theme: bitbrain/jekyll-dash # remote_theme: owner/repo-name
+
